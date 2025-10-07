@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minesweeper</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <h1>Minesweeper</h1>
+    <img src="https://api.nuget.org/v3-flatcontainer/minesweeperlibrary/1.0.5/icon" alt="mine">
+    <div 
+    id="game-container">
+    </div>
+     <div id="score-board">
+        Score: <span id="score">0</span>
+    </div>
+      <div id="final-score">
+    </div>
+    <div id="newgamebtn">
+        <button id="new-game-button">Play</button>
+    </div>
+    <div id="resetbtn">
+         <button id="reset-button">Reset Game</button>
+    </div>
+    <button id="music-btn">Music on/off</button>
+    
+
+<!-- GAME INSTRUCTIONS -->
+<div id="game-rules">   
+
+    <h5 id="Game-rules"> Minesweeper Rules</h5>
+
+    <h6>The board has hidden mines.</h6>
+
+    <h6>Left-click to uncover a square.</h6>
+<ul>  
+    <h6>If it’s a mine, you lose.</h6>
+    <h6>If it’s a number, it shows how many mines touch that square.</h6>  
+    <h6>If it’s empty, nearby empty squares open too.</h6>
+</ul>
+  
+
+<h6>Right-click to place a flag on a square you think has a mine.</h6>
+
+<h6>goal is to uncover all safe squares without clicking on a mine.</h6> 
+    </div>
+    <!-- GAME INSTRUCTIONS -->
+</body>
+<script src="app.js"></script>
+</html>
