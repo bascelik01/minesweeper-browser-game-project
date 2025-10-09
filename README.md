@@ -1,4 +1,5 @@
 # Minesweeper (Simple Browser Version)
+
 ## Game Screenshot
 
 ![GameScreenshot](<Screenshot 2025-10-09 at 12.35.54.png>)
@@ -30,6 +31,6 @@ This version includes **random level generation**, and a **high score competitio
 - ✅ Bottom side of the screen with instructions
 - ✅ Simple win/lose messages
 
----
+## Game Link
 
-
+## https://bascelik01.github.io/minesweeper-browser-game-project/
